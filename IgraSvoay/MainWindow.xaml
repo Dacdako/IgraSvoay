@@ -1,0 +1,54 @@
+﻿<Window x:Class="IgraSvoay.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IgraSvoay"
+        mc:Ignorable="d"
+        Title="Своя игрушка" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="232,49,114,26">
+            <StackPanel Orientation="Horizontal" Height="70">
+                <TextBlock Width="150" Height="auto"/>
+                <Button Content="100" Width="60" Height="60"/>
+                <Button Content="200" Width="60" Height="60"/>
+                <Button Content="300" Width="60" Height="60"/>
+                <Button Content="400" Width="60" Height="60"/>
+                <Button Content="500" Width="60" Height="60"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Height="70">
+                <TextBlock Width="150" Height="auto"/>
+                <Button Content="100" Width="60" Height="60"/>
+                <Button Content="200" Width="60" Height="60"/>
+                <Button Content="300" Width="60" Height="60"/>
+                <Button Content="400" Width="60" Height="60"/>
+                <Button Content="500" Width="60" Height="60"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Height="70">
+                <TextBlock Width="150" Height="auto"/>
+                <Button Content="100" Width="60" Height="60"/>
+                <Button Content="200" Width="60" Height="60"/>
+                <Button Content="300" Width="60" Height="60"/>
+                <Button Content="400" Width="60" Height="60"/>
+                <Button Content="500" Width="60" Height="60"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Height="70">
+                <TextBlock Width="150" Height="auto"/>
+                <Button Content="100" Width="60" Height="60"/>
+                <Button Content="200" Width="60" Height="60"/>
+                <Button Content="300" Width="60" Height="60"/>
+                <Button Content="400" Width="60" Height="60"/>
+                <Button Content="500" Width="60" Height="60"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Height="70" Width="455">
+                <TextBlock Width="150" Height="auto"/>
+                <Button Content="100" Width="60" Height="60"/>
+                <Button Content="200" Width="60" Height="60"/>
+                <Button Content="300" Width="60" Height="60"/>
+                <Button Content="400" Width="60" Height="60"/>
+                <Button Content="500" Width="60" Height="60"/>
+            </StackPanel>
+        </StackPanel>
+        <Button Width="50" Height="50" Margin="740,358,10,26" Click="Button_Click"/>
+    </Grid>
+</Window>
